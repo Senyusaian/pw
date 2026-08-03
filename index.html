@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>你的名字 | 个人作品集</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #172033;
+      background: #f6f8fb;
+      line-height: 1.7;
+    }
+
+    header {
+      padding: 90px 20px;
+      text-align: center;
+      color: white;
+      background: linear-gradient(135deg, #2563eb, #7c3aed);
+    }
+
+    header h1 {
+      margin: 0 0 12px;
+      font-size: 42px;
+    }
+
+    header p {
+      font-size: 20px;
+    }
+
+    nav {
+      padding: 16px;
+      text-align: center;
+      background: white;
+    }
+
+    nav a {
+      margin: 0 12px;
+      color: #2563eb;
+      text-decoration: none;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    section {
+      margin-bottom: 55px;
+    }
+
+    h2 {
+      font-size: 28px;
+      border-left: 5px solid #2563eb;
+      padding-left: 12px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      padding: 24px;
+      background: white;
+      border-radius: 14px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 18px;
+      padding: 10px 18px;
+      color: white;
+      background: #2563eb;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    footer {
+      padding: 30px;
+      text-align: center;
+      color: #667085;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>你好，我是你的名字</h1>
+    <p>我是一名正在寻找机会的开发者 / 设计师 / 学生</p>
+    <a class="button" href="#projects">查看我的作品</a>
+  </header>
+
+  <nav>
+    <a href="#about">关于我</a>
+    <a href="#projects">项目</a>
+    <a href="#skills">技能</a>
+    <a href="#contact">联系我</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>关于我</h2>
+      <p>
+        这里写你的个人介绍，例如：我热爱前端开发，正在学习 HTML、CSS、
+        JavaScript，并希望寻找一份前端开发或软件工程相关的工作。
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>精选项目</h2>
+
+      <div class="projects">
+        <div class="card">
+          <h3>项目一：网站名称</h3>
+          <p>介绍这个项目解决了什么问题，以及你在项目中负责了什么。</p>
+          <p><strong>技术：</strong>HTML、CSS、JavaScript</p>
+          <a class="button" href="https://github.com/" target="_blank">
+            查看项目
+          </a>
+        </div>
+
+        <div class="card">
+          <h3>项目二：应用名称</h3>
+          <p>介绍项目成果，例如提升效率、完成某项功能或获得某项成绩。</p>
+          <p><strong>技术：</strong>Python、React、数据库</p>
+          <a class="button" href="https://github.com/" target="_blank">
+            查看项目
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>技能</h2>
+      <p>HTML · CSS · JavaScript · Python · Git · GitHub</p>
+    </section>
+
+    <section id="contact">
+      <h2>联系我</h2>
+      <p>邮箱：your-email@example.com</p>
+      <p>
+        GitHub：
+        <a href="https://github.com/Senyusaian">
+          github.com/Senyusaian
+        </a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 你的名字
+  </footer>
+</body>
+</html>
