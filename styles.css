@@ -396,6 +396,17 @@ a { color: inherit; }
 
 .about-grid { display: block; }
 .eyebrow-light { color: #a9c2e5; }
+.about-section .simple-section-title,
+.contact-section .simple-section-title {
+  width: min(100%, 780px);
+  margin: 0 auto 30px;
+  font-size: clamp(24px, 3vw, 32px);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.about-section .simple-section-title { color: var(--white); }
+.contact-section .simple-section-title { color: var(--ink); }
 .about-copy { max-width: 780px; margin: 0 auto; }
 .about-copy > p { margin-top: 0; color: rgba(255, 255, 255, 0.68); font-size: 14px; }
 
