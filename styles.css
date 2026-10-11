@@ -638,7 +638,11 @@ footer a { color: var(--blue); text-underline-offset: 5px; }
 
 .project-breadcrumb a { color: var(--blue); text-underline-offset: 5px; }
 
-.project-hero .eyebrow-light { color: var(--blue); }
+.project-hero .eyebrow-light {
+  color: var(--blue);
+  font-size: 12px;
+  letter-spacing: 0.15em;
+}
 
 .project-title-row {
   display: grid;
