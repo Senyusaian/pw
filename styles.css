@@ -804,6 +804,19 @@ footer a { color: var(--blue); text-underline-offset: 5px; }
 .media-callout strong { display: block; margin-top: 3px; color: var(--white); font-size: 14px; }
 .media-callout .button { flex: none; color: var(--blue); background: var(--white); border-color: var(--white); }
 
+.project-document-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.project-document-heading > div { min-width: 0; }
+.project-document-heading > div > p:last-child { margin-bottom: 0; }
+.project-document-heading .button { flex: none; }
+.project-document .pdf-viewer { margin-top: 24px; }
+.project-page .project-pdf-frame { height: min(74vh, 860px); min-height: 620px; }
+
 .project-pagination {
   display: grid;
   margin-top: 82px;
@@ -892,6 +905,9 @@ footer a { color: var(--blue); text-underline-offset: 5px; }
   .detail-card { min-height: 0; }
   .media-callout { align-items: stretch; flex-direction: column; }
   .media-callout .button { width: 100%; }
+  .project-document-heading { align-items: stretch; flex-direction: column; }
+  .project-document-heading .button { width: 100%; }
+  .project-page .project-pdf-frame { height: 68vh; min-height: 520px; }
   .project-pagination { margin-top: 58px; grid-template-columns: 1fr; }
 
   footer {
