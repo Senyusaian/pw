@@ -231,6 +231,24 @@ a { color: inherit; }
 .button-primary:focus-visible { background: var(--blue-deep); }
 .button-quiet { color: var(--blue); background: var(--white); }
 
+.portfolio-cta {
+  min-height: 48px;
+  padding: 0 24px;
+  color: var(--blue-deep);
+  background: linear-gradient(135deg, var(--white) 0%, #edf5ff 100%);
+  border: 2px solid var(--blue);
+  box-shadow: 0 10px 26px rgba(18, 47, 89, 0.16);
+  font-size: 13px;
+}
+
+.portfolio-cta:hover,
+.portfolio-cta:focus-visible {
+  color: var(--white);
+  background: var(--blue-deep);
+  border-color: var(--blue-deep);
+  box-shadow: 0 14px 32px rgba(18, 47, 89, 0.24);
+}
+
 .work-section {
   padding: 100px 0 120px;
   border-top: 1px solid var(--line);
