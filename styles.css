@@ -208,6 +208,7 @@ a { color: inherit; }
 }
 
 .hero-actions { display: flex; margin-top: 30px; flex-wrap: wrap; gap: 12px; }
+.hero-actions .button { box-shadow: 0 4px 7px rgba(18, 47, 89, 0.16); }
 
 .button {
   display: inline-flex;
@@ -221,7 +222,7 @@ a { color: inherit; }
   font-size: 12px;
   font-weight: 750;
   text-decoration: none;
-  transition: transform 160ms ease, background-color 160ms ease, border-color 160ms ease;
+  transition: transform 160ms ease, background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
 }
 
 .button:hover,
@@ -235,9 +236,8 @@ a { color: inherit; }
   min-height: 48px;
   padding: 0 24px;
   color: var(--blue-deep);
-  background: linear-gradient(135deg, var(--white) 0%, #edf5ff 100%);
-  border: 3px solid #0a2343;
-  box-shadow: inset 0 0 0 1px rgba(10, 35, 67, 0.18), 0 10px 26px rgba(18, 47, 89, 0.18);
+  background: var(--white);
+  border: 1.5px solid var(--blue);
   font-size: 13px;
 }
 
@@ -246,7 +246,6 @@ a { color: inherit; }
   color: var(--white);
   background: var(--blue-deep);
   border-color: var(--blue-deep);
-  box-shadow: 0 14px 32px rgba(18, 47, 89, 0.24);
 }
 
 .work-section {
